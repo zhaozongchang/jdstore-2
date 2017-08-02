@@ -15,7 +15,7 @@ resources :products do
 resources :carts do
   collection do
     delete :clean
+    resources :cart_items
           end
         end
       end
-    
