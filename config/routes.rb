@@ -20,4 +20,7 @@ resources :carts do
           end
         end
         resources :orders
+        namespace :account do
+    resources :orders
+  end
       end
